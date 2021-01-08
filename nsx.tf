@@ -9,7 +9,6 @@ terraform {
 provider "nsxt" {
   host                  = "nsx-rhr3c5ypi8.ionoscloud.tools"
   username              = "nsx-admin@System Domain"
-  password              = "J6vhhKMeDlr,kt"
   allow_unverified_ssl  = true
   remote_auth           = true
   max_retries           = 10
